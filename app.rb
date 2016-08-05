@@ -15,7 +15,7 @@ class App < Sinatra::Base
     # hash = Hash[params.map {|k, v| [k.to_sym, v]}]
     # binding.pry
     session[:item] = params['item']
-    @item = hash[:item]
+    @item = params['item']
     erb :checkout
   end
   
