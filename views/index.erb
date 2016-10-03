@@ -1,1 +1,20 @@
+<!DOCTYPE HTML>
 
+<h1>Welcome to SJ Boutique</h1>
+<p>Please enter the items you would like to add to your cart for checkout:</p>
+<br>
+
+<form action="/checkout" method="POST">
+  <label for="item1_name">Item 1:</label>
+  <input id="item" type="text" name="item[name]"></input>
+    <br>
+  <label for="item2_name">Item 2:</label>
+  <input id="item2_name" type="text" name="item[name]"></input>
+    <br>
+  <label for="item3_name">Item 3:</label>
+  <input id="item3_name" type="text" name="item[name]"></input>
+
+
+  <button type="submit">submit</button>
+
+</form>
